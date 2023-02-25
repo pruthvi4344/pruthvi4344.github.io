@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <style>
+        *{
+             margin: -2px 0px -4px 0px;
+        }
+        .navbar{
+            background-color: rgb(33, 84, 41);
+            padding: 4px;
+            border: 1px;
+        
+        }
+        .navbar ul{
+            overflow: hidden;
+            list-style: none;
+        
+    }
+        .navbar li{
+            float: left;
+            padding: 14px 0px 14px 0px;
+            font-size: 20px;
+            font-weight: 700;
+            
+        }
+        .navbar li :hover{
+            background-color: rgb(28, 218, 57);
+            color: rgb(0, 0, 0);
+        }
+        .navbar ul li a{
+            color: black;
+            padding: 20px 9px 20px 9px;
+            text-decoration: none;
+        }
+        .body{
+             background-color: rgb(33, 84, 41);
+
+        }
+        .reg{
+            background-color: aquamarine;
+            width: 313px;
+            padding: 20px;
+            margin: 86px 207px 214px 576px;
+            border-radius: 26px;
+
+        }
+        .button{
+            background-color: rgb(97, 97, 255);
+            padding: 10px;
+            border-radius: 16px;
+            margin: 10px 0px;
+            font-size: 15px;
+            width: 79%;
+            border: none;
+            cursor: pointer;
+        }
+        .input{
+            border: none;
+            border-radius: 16px ;
+            padding: 10px;
+            width: 79%;
+        }
+        .h2{
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body class="body">
+        <nav class="navbar">
+          <ul>
+              <li><a href="main.html">Home</a></li>
+              <li><a href="#">Categories</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">Service</a></li>
+              <li style="float: right; padding-right: 39px;"><a href="register.html">Register</a></li>
+              <li style="float: right;"><a href="login.html">Login</a></li>
+          </ul>
+        </nav>  
+        <div class="reg">
+          <form>
+              <h2 class="h2">Change password</h2>
+              <input type="email" class="input" placeholder="Enter email" style="margin: 50px 0px 0px 26px;
+              ">
+              <input type="number" class="input" placeholder="6-digit code" maxlength="10" style="margin: 25px 0px 0px 26px; width: 50%;
+              "><button type="button" style="margin-left: 15px; width: 21%; border-radius: 16px; cursor: pointer;" class="button">Send</button>
+              <input type="password" class="input" placeholder="Enter new passwprd" style="margin: 16px 0px 0px 26px;">
+              <input type="password" class="input" placeholder="Re-enter passwprd" style="margin: 16px 0px 0px 26px;">
+              <button type="button" style="margin: 37px 0px 33px 26px;" class="button">Login</button> 
+             
+          </form>
+        </div>
+    
+</body>
+</html>

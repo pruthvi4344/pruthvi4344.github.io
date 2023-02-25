@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        *{
+             margin: -2px 0px -4px 0px;
+        }
+        .navbar{
+            background-color: rgb(33, 84, 41);
+            padding: 4px;
+            border: 1px;
+        
+        }
+        .navbar ul{
+            overflow: hidden;
+            list-style: none;
+        
+    }
+        .navbar li{
+            float: left;
+            padding: 14px 0px 14px 0px;
+            font-size: 20px;
+            font-weight: 700;
+            
+        }
+        .navbar li :hover{
+            background-color: rgb(28, 218, 57);
+            color: rgb(0, 0, 0);
+        }
+        .navbar ul li a{
+            color: black;
+            padding: 20px 9px 20px 9px;
+            text-decoration: none;
+        }
+        .body{
+             background-color: rgb(33, 84, 41);
+
+        }
+        .reg{
+            background-color: aquamarine;
+            width: 327px;
+            padding: 20px;
+            margin: 86px 207px 214px 576px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .or{
+            margin: -12px 12px 10px 153px;
+            background-color: aquamarine;
+            width: 17px;
+            text-align: center;
+        }
+        .button{
+            background-color: rgb(97, 97, 255);
+            border-radius: 15px;
+            margin: 10px 0px;
+            font-size: 15px;
+            padding: 10px;
+            width: 79%;
+            cursor: pointer;;
+            border: none;
+        }
+        .input{
+            width: 79%;
+            border-radius: 15px;
+            border: 1px;
+            margin: 10px 0px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body class="body">
+    <nav class="navbar">
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">Service</a></li>
+            <li style="float: right; padding-right: 39px;"><a href="#">Register</a></li>
+            <li style="float: right;"><a href="login.html">Login</a></li>
+        </ul>
+      </nav>  
+    <div class="reg">
+        <form>
+            <h1>Register Yourself</h1>
+            <input type="email" placeholder="email" style="margin-top: 50px;" class="input">
+            <input type="name" placeholder="Create Username" style="margin-top: 24px;" class="input">
+            <input type="password" placeholder="password" style="margin-top: 24px;" class="input">
+            <input type="password" placeholder="Re-enter password" style="margin-top: 24px;" class="input">
+            <p><input type="checkbox" style="margin-top: 28px ;
+                margin-bottom: 24px;"> agree with terms and conditions</p>
+            <button type="button" class="button">Sign-Up</button>
+            <hr style="margin-top: 20px;">
+            <p class="or">or</p>
+            <button type="button" class="button">Login with Google</button>
+             <p style="margin-top: 5px;">Do you have an account? <a href="login.html">sign-in</a></p>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite animation </title>
+</head>
+<body>
+<style>
+    #myCanvas{
+        position: absolute;
+        top:50%;
+        left:50%;
+        border:5px solid;
+        transform: translate(-50%,-50%);
+        width: 778px;
+        height : 625px;
+    }
+</style>
+<!-- <div class="character"></div> --> 
+<select name="menu" id="menu">
+    <option value="left">Left</option>
+    <option value="right">Right</option>
+</select>
+    <canvas id="myCanvas">
+        
+        <img src="animation.jpg" alt="" id="myImg">
+    </canvas>
+    <script src="script.js"></script>
+</body>
+</html>

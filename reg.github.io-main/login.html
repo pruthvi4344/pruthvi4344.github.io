@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link  media="screed and (max width: 1390px)" href="phone.css">
+    <title>My Page</title>
+    <style>
+        *{
+             margin: -2px 0px -4px 0px;
+        }
+        .navbar{
+            background-color: rgb(33, 84, 41);
+            padding: 4px;
+            border: 1px;
+        
+        }
+        .navbar ul{
+            overflow: hidden;
+            list-style: none;
+        
+    }
+        .navbar li{
+            float: left;
+            padding: 14px 0px 14px 0px;
+            font-size: 20px;
+            font-weight: 700;
+            
+        }
+        .navbar li :hover{
+            background-color: rgb(28, 218, 57);
+            color: rgb(0, 0, 0);
+        }
+        .navbar ul li a{
+            color: black;
+            padding: 20px 9px 20px 9px;
+            text-decoration: none;
+        }
+        .body{
+             background-color: rgb(33, 84, 41);
+
+        }
+       .reg{
+        background-color: aquamarine;
+        border-radius: 10px;
+        width: 327px;
+        padding: 20px;
+        margin: 86px 207px 214px 576px;
+        text-align: center;
+       }
+       .button{
+            background-color: rgb(97, 97, 255);
+            border-radius: 15px;
+            margin: 10px 0px;
+            font-size: 15px;
+            padding: 10px;
+            width: 79%;
+            cursor: pointer;;
+            border: none;
+        }
+        .input{
+            border: none;
+            border-radius: 15px ;
+            padding: 10px;
+            width: 79%;
+        }
+    </style>
+</head>
+<body class="body">
+  <nav class="navbar">
+    <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">Service</a></li>
+        <li style="float: right; padding-right: 39px;"><a href="register.html">Register</a></li>
+        <li style="float: right;"><a href="login.html">Login</a></li>
+    </ul>
+  </nav>  
+  <div class="reg">
+    <form>
+        <h1>Login Yourself</h1>
+        <input type="name" class="input" placeholder="Enter Username" style="margin-top: 50px;">
+        <input type="password" class="input" placeholder="Enter Password" style="margin-top: 24px;">
+        <p style="padding-left: 126px; margin-top: 12px;"><a href="forgot.html" style="text-decoration: none;">Forgot password?</a></p>
+        <button type="button" style="margin-top: 36px;" class="button">Login</button> 
+        <p style="margin-top: 10px;">if you don't have an account <a href="register.html" style="text-decoration: none; font-size: 15px;" >
+        sign-up</a></p>
+    </form>
+  </div>
+
+</body>
+</html>
